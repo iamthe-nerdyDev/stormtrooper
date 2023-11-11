@@ -1,19 +1,15 @@
-import { ReactNode } from "react";
+import { IContainer } from "../../interface";
 import "./Container.css";
 
-interface Props {
-  children?: ReactNode;
-}
-
-const Container = ({ children }: Props) => {
+const Container = ({ children }: IContainer) => {
   return (
-    <div className="main-container">
+    <main>
       <div className="border-lines">
         <hr />
         <hr />
       </div>
       {children}
-    </div>
+    </main>
   );
 };
 

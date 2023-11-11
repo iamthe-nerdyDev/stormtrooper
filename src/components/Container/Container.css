@@ -1,33 +1,28 @@
-.main-container {
-  background-color: inherit;
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
+main {
+  width: 100%;
 }
 
-.main-container .border-lines hr {
+.border-lines hr {
   position: fixed;
   width: 1px;
   height: 100vh;
   z-index: 9999;
 }
 
-.main-container .border-lines hr:first-child {
+.border-lines hr:first-child {
   left: calc(var(--bs-gutter-x) * 0.7);
 }
 
-.main-container .border-lines hr:last-child {
+.border-lines hr:last-child {
   right: calc(var(--bs-gutter-x) * 0.7);
 }
 
 @media (min-width: 768px) {
-  .main-container .border-lines hr:first-child {
+  .border-lines hr:first-child {
     left: calc(var(--bs-gutter-x) * 2.5);
   }
 
-  .main-container .border-lines hr:last-child {
+  .border-lines hr:last-child {
     right: calc(var(--bs-gutter-x) * 2.5);
   }
 }
