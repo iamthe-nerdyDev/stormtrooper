@@ -1,0 +1,42 @@
+.hero {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid var(--border-color);
+  padding: 0 1rem;
+  padding-top: 2rem;
+}
+
+.hero h1 {
+  font-family: var(--font-header);
+  font-size: calc(2.4rem + 1vw);
+  line-height: 135%;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero h1 {
+    font-size: 3.6rem;
+  }
+}
+
+.hero h1 span {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: var(--bg-purple);
+}
+
+.hero p {
+  font-size: 1.1rem;
+  line-height: 205%;
+  font-weight: 300;
+  color: #777;
+  margin-bottom: 1.7rem;
+}
+
+.hero img {
+  width: 75%;
+  height: auto;
+  margin: 0% auto;
+  display: block;
+}

@@ -4,6 +4,7 @@ import "./Container.css";
 const Container = ({ children }: IContainer) => {
   return (
     <main>
+      <div className="overlay"></div>
       <div className="border-lines">
         <hr />
         <hr />

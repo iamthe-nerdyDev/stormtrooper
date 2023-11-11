@@ -9,3 +9,10 @@ export interface IIcon {
 export interface IContainer {
   children?: ReactNode;
 }
+
+export interface IButton {
+  label: string;
+  type?: "submit" | "button";
+  className?: string;
+  handleClick?: () => void;
+}

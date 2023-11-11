@@ -1,0 +1,12 @@
+.btn {
+  width: max-content;
+  border: none;
+  outline: none;
+  background-color: var(--bg-purple);
+  padding: 1rem 1.9rem;
+  border-radius: 5px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}

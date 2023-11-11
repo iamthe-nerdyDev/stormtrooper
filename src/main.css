@@ -1,9 +1,12 @@
 :root {
   --border-color: #353539;
   --bg-color: #0a090f;
-  --bg-primary: #ff0000;
+  --bg-red: #ff0000;
+  --bg-green: #00cc66;
+  --bg-purple: #80339b;
+  --bg-blue: #007bff;
   --font-header: "Orbitron", sans-serif;
-  --font-body: "Lato", sans-serif;
+  --font-body: "Montserrat", sans-serif;
   --bs-gutter-x: 1.5rem;
 }
 
@@ -27,6 +30,10 @@ body {
 body {
   background-color: var(--bg-color);
   font-family: var(--font-body);
+  background-image: url("./assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 hr {
@@ -42,6 +49,26 @@ a {
   cursor: pointer;
 }
 
+.bg-red {
+  background-color: var(--bg-red) !important;
+}
+
+.bg-green {
+  background-color: var(--bg-green) !important;
+}
+
+.bg-blue {
+  background-color: var(--bg-blue) !important;
+}
+
+.bg-purple {
+  background-color: var(--bg-purple) !important;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
 .container-st {
   padding-left: calc(var(--bs-gutter-x) * 0.7);
   padding-right: calc(var(--bs-gutter-x) * 0.7);
@@ -54,10 +81,18 @@ a {
   }
 }
 
+.gap-0 {
+  gap: 1rem;
+}
+
 .gap-1 {
   gap: 1.5rem;
 }
 
 .position-relative {
   position: relative;
+}
+
+.w-100 {
+  width: 100%;
 }
