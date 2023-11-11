@@ -1,6 +1,5 @@
 .mission {
   width: 100%;
-  background-color: #7f339b19;
   border-bottom: 1px solid var(--border-color);
 }
 
@@ -13,12 +12,11 @@
   margin-bottom: 1rem;
   border: 1px solid var(--border-color);
   padding: 2rem;
-  color: var(--bg-purple);
 }
 
 .mission h1 span {
-  color: #fff;
-  border-bottom: 1px dotted #fff;
+  color: var(--bg-red);
+  border-bottom: 1px dotted var(--bg-red);
   cursor: pointer;
 }
 

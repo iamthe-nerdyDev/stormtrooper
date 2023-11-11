@@ -3,12 +3,12 @@ import "./Mission.css";
 const Mission = () => {
   return (
     <section className="mission py-5" id="mission">
-      <div className="container-st my-5">
+      <div className="container-st my-4">
         <div className="row">
           <div className="col-12">
             <div className="px-3">
               <h1>
-                The Stormtrooper <span>NFT</span> Mission
+                The Stormtrooper <span>NFT Mission</span>
               </h1>
               <p>
                 At the heart of <span>Stormtrooper NFT</span> lies a deep-rooted
