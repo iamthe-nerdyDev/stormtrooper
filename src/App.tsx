@@ -1,4 +1,5 @@
 import {
+  Burn,
   Container,
   Hero,
   Introduction,
@@ -17,6 +18,7 @@ const App = () => {
         <Introduction />
         <Mission />
         <KeyNotes />
+        <Burn />
       </Container>
     </>
   );

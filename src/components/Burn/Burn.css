@@ -1,0 +1,43 @@
+.burn {
+  width: 100%;
+  /* background-color: var(--bg-color); */
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.burn img {
+  width: 70%;
+  display: block;
+  margin: 0% auto;
+}
+
+.burn h2 {
+  font-size: 2.5rem;
+  font-family: var(--font-header);
+  margin-bottom: 1.4rem;
+}
+
+.burn h2 span {
+  color: var(--bg-red);
+  border-bottom: 1px dotted var(--bg-red);
+  text-transform: uppercase;
+}
+
+.burn p {
+  font-size: 0.9rem;
+  font-weight: 350;
+  color: #ccc;
+  line-height: 220%;
+  width: 100%;
+  max-width: 35rem;
+  border: 1px solid var(--border-color);
+  padding: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.burn p span {
+  color: var(--bg-red);
+  border-bottom: 1px dotted var(--bg-red);
+  font-weight: 700;
+}
