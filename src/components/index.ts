@@ -4,3 +4,4 @@ export { default as Footer } from "./Footer/Footer";
 export { default as Burn } from "./Burn/Burn";
 export { default as CallToJoin } from "./CallToJoin/CallToJoin";
 export { default as CTA } from "./CTA/CTA";
+export { default as Container } from "./Container/Container";
