@@ -16,7 +16,7 @@
 
 .mission h1 span {
   color: var(--bg-red);
-  border-bottom: 1px dotted var(--bg-red);
+  border-bottom: 2px dotted var(--bg-red);
   cursor: pointer;
 }
 
@@ -34,6 +34,6 @@
 
 .mission p span {
   color: var(--bg-red);
-  border-bottom: 1px dotted var(--bg-red);
+  border-bottom: 2px dotted var(--bg-red);
   cursor: pointer;
 }

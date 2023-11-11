@@ -1,5 +1,6 @@
 import {
   Burn,
+  CallToJoin,
   Container,
   Hero,
   Introduction,
@@ -19,6 +20,7 @@ const App = () => {
         <Mission />
         <KeyNotes />
         <Burn />
+        <CallToJoin />
       </Container>
     </>
   );

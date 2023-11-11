@@ -1,6 +1,5 @@
 .burn {
   width: 100%;
-  /* background-color: var(--bg-color); */
   background-color: rgba(0, 0, 0, 0.5);
   border-bottom: 1px solid var(--border-color);
 }
@@ -19,7 +18,7 @@
 
 .burn h2 span {
   color: var(--bg-red);
-  border-bottom: 1px dotted var(--bg-red);
+  border-bottom: 2px dotted var(--bg-red);
   text-transform: uppercase;
 }
 
@@ -38,6 +37,6 @@
 
 .burn p span {
   color: var(--bg-red);
-  border-bottom: 1px dotted var(--bg-red);
+  border-bottom: 2px dotted var(--bg-red);
   font-weight: 700;
 }

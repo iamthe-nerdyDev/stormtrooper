@@ -48,12 +48,12 @@ nav > div {
 
 .nav-links ul li {
   padding: 0.3rem 0.7rem;
-  border-bottom: 1px dotted var(--bg-color);
+  border-bottom: 2px dotted var(--bg-color);
   transition: 0.3s ease-in-out;
 }
 
 .nav-links ul li:hover {
-  border-bottom: 1px dotted var(--border-color);
+  border-bottom: 2px dotted var(--border-color);
 }
 
 .nav-links ul li a {
@@ -62,7 +62,7 @@ nav > div {
 
 .nav-links ul li.active {
   font-weight: 600;
-  border-bottom: 1px dotted #fff;
+  border-bottom: 2px dotted #fff;
 }
 
 .nav-links ul li.active a {
@@ -123,12 +123,12 @@ nav > div {
 .nav-link-mobile ul li {
   width: max-content;
   padding: 0.3rem;
-  border-bottom: 1px dotted var(--bg-color);
+  border-bottom: 2px dotted var(--bg-color);
   transition: 0.3s ease-in-out;
 }
 
 .nav-link-mobile ul li:hover {
-  border-bottom: 1px dotted var(--border-color);
+  border-bottom: 2px dotted var(--border-color);
 }
 
 .nav-link-mobile ul li a {
@@ -137,7 +137,7 @@ nav > div {
 
 .nav-link-mobile ul li.active {
   font-weight: 600;
-  border-bottom: 1px dotted #fff;
+  border-bottom: 2px dotted #fff;
 }
 
 .nav-link-mobile ul li.active a {

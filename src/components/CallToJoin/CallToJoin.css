@@ -1,0 +1,54 @@
+.call-to-join {
+  background-color: var(--bg-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.call-to-join .text {
+  width: 100%;
+}
+
+.call-to-join .text h1 {
+  font-family: var(--font-header);
+  font-size: 2rem;
+  line-height: 150%;
+  margin-bottom: 1rem;
+}
+
+.call-to-join .text h1 span {
+  color: var(--bg-purple);
+  border-bottom: 2px dotted var(--bg-purple);
+}
+
+.call-to-join .text p {
+  line-height: 220%;
+  color: #aaa;
+  font-size: 0.95rem;
+}
+
+.call-to-join .image {
+  width: 100%;
+  background-color: var(--border-color);
+  border-left: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+  height: 100%;
+}
+
+.call-to-join .image img {
+  width: 90%;
+}
+
+.call-to-join .image > div {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background-color: var(--bg-color);
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 700;
+  font-family: var(--font-header);
+  padding: 0.9rem 2rem;
+  border-radius: 3px;
+}
