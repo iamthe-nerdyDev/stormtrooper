@@ -17,9 +17,8 @@ const Hero = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation.
             </p>
-            <div className="d-flex flex-column gap-0 mb-1 mb-md-5">
+            <div className="mb-1 mb-md-5">
               <Button label="Connect Wallet" />
-              <Button label="Collections" className="bg-green" />
             </div>
           </div>
           <div className="col-12 col-md-6">
