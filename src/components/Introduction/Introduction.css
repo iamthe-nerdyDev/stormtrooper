@@ -38,10 +38,10 @@
 
 .introduction .position-relative svg:first-child {
   top: 0;
-  left: -2.5rem;
+  left: -2.2rem;
 }
 
 .introduction .position-relative svg:last-child {
-  right: -2.5rem;
+  right: -2.2rem;
   bottom: 0;
 }
