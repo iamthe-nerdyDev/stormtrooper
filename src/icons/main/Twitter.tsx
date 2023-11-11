@@ -1,4 +1,4 @@
-import { IIcon } from "../interface";
+import { IIcon } from "../../interface";
 
 const Twitter = ({ width, height, fill, ...props }: IIcon) => {
   return (

@@ -1,4 +1,4 @@
-import { Container, Hero, Navbar } from "./components";
+import { Container, Hero, Introduction, Navbar } from "./components";
 import "./main.css";
 
 const App = () => {
@@ -7,6 +7,7 @@ const App = () => {
       <Container>
         <Navbar />
         <Hero />
+        <Introduction />
       </Container>
     </>
   );

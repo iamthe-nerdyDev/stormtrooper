@@ -6,3 +6,4 @@ export { default as CallToJoin } from "./CallToJoin/CallToJoin";
 export { default as CTA } from "./CTA/CTA";
 export { default as Container } from "./Container/Container";
 export { default as Button } from "./Button/Button";
+export { default as Introduction } from "./Introduction/Introduction";

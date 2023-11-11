@@ -1,5 +1,7 @@
-export { default as Discord } from "./Discrod";
-export { default as Telegram } from "./Telegram";
-export { default as Github } from "./Github";
-export { default as Twitter } from "./Twitter";
-export { default as Menu } from "./Menu";
+export { default as Discord } from "./main/Discrod";
+export { default as Telegram } from "./main/Telegram";
+export { default as Github } from "./main/Github";
+export { default as Twitter } from "./main/Twitter";
+export { default as Menu } from "./main/Menu";
+export { default as QuoteLeft } from "./main/QuoteLeft";
+export { default as QuoteRight } from "./main/QuoteRight";

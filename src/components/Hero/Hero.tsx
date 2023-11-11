@@ -5,7 +5,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       <div className="container-st">
         <div className="row align-items-end g-4 g-md-5">
           <div className="col-12 col-md-6">

@@ -1,0 +1,47 @@
+.introduction {
+  background-color: var(--bg-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.introduction p {
+  font-weight: 400;
+  font-size: 1.03rem;
+  color: #888;
+  line-height: 245%;
+}
+
+.introduction .position-relative {
+  margin: 0% auto;
+  width: 78%;
+}
+
+.header-block {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-block hr {
+  width: 4rem;
+}
+
+.header-block h2 {
+  font-family: var(--font-header);
+  font-size: 1.9rem;
+  color: var(--bg-red);
+}
+
+.introduction .position-relative svg {
+  position: absolute;
+  fill: var(--bg-red);
+}
+
+.introduction .position-relative svg:first-child {
+  top: 0;
+  left: -2.5rem;
+}
+
+.introduction .position-relative svg:last-child {
+  right: -2.5rem;
+  bottom: 0;
+}

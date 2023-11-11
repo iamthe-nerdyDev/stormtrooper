@@ -1,4 +1,4 @@
-import { IIcon } from "../interface";
+import { IIcon } from "../../interface";
 
 const Discord = ({ width, height, fill, ...props }: IIcon) => {
   return (
