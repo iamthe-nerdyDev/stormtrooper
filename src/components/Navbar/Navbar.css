@@ -89,7 +89,7 @@ nav > div {
 
 .nav-link-mobile {
   position: absolute;
-  right: 0rem;
+  right: calc(var(--bs-gutter-x) * 0.7);
   background-color: #000;
   width: 15rem;
   border: 1px solid var(--border-color);
@@ -98,7 +98,12 @@ nav > div {
   flex-direction: column;
   gap: 1.5rem;
   padding: 1rem;
-  z-index: 99999;
+}
+
+@media (min-width: 768px) {
+  .nav-link-mobile {
+    right: calc(var(--bs-gutter-x) * 2.5);
+  }
 }
 
 .nav-link-mobile ul {
