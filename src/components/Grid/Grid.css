@@ -1,0 +1,25 @@
+.grid {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.floating-container img {
+  width: 100%;
+  max-width: 20rem;
+  margin: 0% auto;
+  display: block;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  background-color: #444;
+}
+
+@media screen and (min-width: 768px) {
+  .floating-container .col {
+    border-right: 1px solid var(--border-color);
+    padding: 1rem 3rem;
+  }
+
+  .floating-container .col:last-child {
+    border-right: none;
+  }
+}

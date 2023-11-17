@@ -20,7 +20,7 @@
 }
 
 .call-to-join .text p {
-  line-height: 220%;
+  line-height: 240%;
   color: #aaa;
   font-size: 0.95rem;
 }
@@ -51,4 +51,17 @@
   font-family: var(--font-header);
   padding: 0.9rem 2rem;
   border-radius: 3px;
+}
+
+.socials-box {
+  border: 1px solid var(--border-color);
+}
+
+.socials-box svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.socials-box > div {
+  gap: 1.8rem;
 }

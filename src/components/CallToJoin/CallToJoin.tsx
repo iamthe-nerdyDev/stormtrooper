@@ -1,5 +1,5 @@
-import { Button } from "..";
 import callToJoinImage from "../../assets/images/join-us.png";
+import { Github, Discord, Telegram, Twitter } from "../../icons";
 import "./CallToJoin.css";
 
 const CallToJoin = () => {
@@ -11,13 +11,28 @@ const CallToJoin = () => {
             <h1>
               <span>Together</span>, we can make a difference
             </h1>
-            <p className="mb-4">
+            <p className="mb-5">
               By becoming a Stormtrooper NFT holder, you become part of a
               community of like-minded individuals who share a passion for Star
               Wars, a commitment to charity, and a belief in the power of
               technology to make a positive impact on the world.
             </p>
-            <Button label="Connect Wallet" />
+            <div className="socials-box py-4">
+              <div className="d-flex align-items-center justify-content-center">
+                <a href="#" target="_blank">
+                  <Github fill="#80339b" />
+                </a>
+                <a href="#" target="_blank">
+                  <Discord fill="#80339b" />
+                </a>
+                <a href="#" target="_blank">
+                  <Telegram fill="#80339b" />
+                </a>
+                <a href="#" target="_blank">
+                  <Twitter fill="#80339b" />
+                </a>
+              </div>
+            </div>
           </div>
           <div className="image position-relative">
             <img src={callToJoinImage} alt="Call to Join Stormtrooper NFT" />

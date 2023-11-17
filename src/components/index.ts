@@ -9,3 +9,5 @@ export { default as Button } from "./Button/Button";
 export { default as Introduction } from "./Introduction/Introduction";
 export { default as Mission } from "./Mission/Mission";
 export { default as KeyNotes } from "./KeyNotes/KeyNotes";
+export { default as Grid } from "./Grid/Grid";
+export { default as Partners } from "./Partners/Partners";

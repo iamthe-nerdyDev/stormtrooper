@@ -1,3 +1,6 @@
+import RoyaltiesIcon from "../../assets/images/royalties.png";
+import GivinngIcon from "../../assets/images/giving.png";
+
 import "./KeyNotes.css";
 
 const KeyNotes = () => {
@@ -14,6 +17,7 @@ const KeyNotes = () => {
                       <hr />
                       <span>keynote one</span>
                     </div>
+                    <img src={GivinngIcon} className="my-4" alt="" />
                     <h3>A legacy of giving</h3>
                     <p>
                       The Stormtrooper NFT project has partnered with several
@@ -32,6 +36,7 @@ const KeyNotes = () => {
                       <hr />
                       <span>keynote two</span>
                     </div>
+                    <img src={RoyaltiesIcon} className="my-4" alt="" />
                     <h3>Rewarding collectors</h3>
                     <p>
                       In recognition of their unwavering support, Stormtrooper

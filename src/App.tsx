@@ -1,12 +1,16 @@
 import {
   Burn,
+  CTA,
   CallToJoin,
   Container,
+  Footer,
+  Grid,
   Hero,
   Introduction,
   KeyNotes,
   Mission,
   Navbar,
+  Partners,
 } from "./components";
 import "./main.css";
 
@@ -21,6 +25,10 @@ const App = () => {
         <KeyNotes />
         <Burn />
         <CallToJoin />
+        <Grid />
+        <CTA />
+        <Partners />
+        <Footer />
       </Container>
     </>
   );

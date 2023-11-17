@@ -1,0 +1,12 @@
+.partners {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.partners img {
+  width: auto;
+  background-color: #000;
+  border: 1px solid var(--border-color);
+  height: 10rem;
+  object-fit: cover;
+  padding: 1rem;
+}

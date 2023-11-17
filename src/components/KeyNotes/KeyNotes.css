@@ -3,6 +3,10 @@
   background-color: var(--bg-color);
 }
 
+.keynote-single img {
+  width: 4rem;
+}
+
 .keynote-single > div {
   display: flex;
   align-items: center;

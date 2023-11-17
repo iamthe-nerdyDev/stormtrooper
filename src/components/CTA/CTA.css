@@ -1,0 +1,30 @@
+.cta {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.cta-main {
+  background-color: #7f339b6f;
+}
+
+.cta-main p {
+  font-size: 1.1rem;
+  line-height: 250%;
+  opacity: 0.5;
+  font-weight: 500;
+}
+
+.gap-2 {
+  gap: 2.4rem;
+}
+
+.cta-main .socials-box {
+  background-color: var(--bg-purple);
+  border: 1px solid #fff;
+}
+
+.cta-main h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  line-height: 180%;
+  padding: 0.98rem 0;
+}
