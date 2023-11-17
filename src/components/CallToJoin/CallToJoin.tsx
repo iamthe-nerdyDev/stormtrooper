@@ -6,8 +6,8 @@ const CallToJoin = () => {
   return (
     <section className="call-to-join pt-4 pt-md-0" id="call-to-join">
       <div className="container-st">
-        <div className="d-flex flex-column flex-lg-row gap-1 align-items-center">
-          <div className="text px-4 my-5">
+        <div className="d-flex flex-column flex-lg-row gap-1 align-items-center px-2">
+          <div className="text px-3 px-md-4 my-5">
             <h1>
               <span>Together</span>, we can make a difference
             </h1>
@@ -34,7 +34,7 @@ const CallToJoin = () => {
               </div>
             </div>
           </div>
-          <div className="image position-relative">
+          <div className="image position-relative my-2">
             <img src={callToJoinImage} alt="Call to Join Stormtrooper NFT" />
             <div>Stormtrooper</div>
           </div>

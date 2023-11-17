@@ -9,7 +9,6 @@ import {
   Introduction,
   KeyNotes,
   Mission,
-  Navbar,
   Partners,
 } from "./components";
 import "./main.css";
@@ -18,7 +17,6 @@ const App = () => {
   return (
     <>
       <Container>
-        <Navbar />
         <Hero />
         <Introduction />
         <Mission />
