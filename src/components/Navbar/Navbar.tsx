@@ -96,6 +96,7 @@ const Navbar = () => {
           )}
         </div>
       </nav>
+      <div className="py-3"></div>
     </>
   );
 };
