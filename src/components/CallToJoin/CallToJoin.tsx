@@ -1,5 +1,5 @@
 import callToJoinImage from "../../assets/images/join-us.png";
-import { Github, Discord, Telegram, Twitter } from "../../icons";
+import { GitBook, Discord, Telegram, Twitter } from "../../icons";
 import "./CallToJoin.css";
 
 const CallToJoin = () => {
@@ -20,13 +20,10 @@ const CallToJoin = () => {
             <div className="socials-box py-4">
               <div className="d-flex align-items-center justify-content-center">
                 <a href="#" target="_blank">
-                  <Github fill="#80339b" />
+                  <GitBook fill="#80339b" />
                 </a>
                 <a href="#" target="_blank">
                   <Discord fill="#80339b" />
-                </a>
-                <a href="#" target="_blank">
-                  <Telegram fill="#80339b" />
                 </a>
                 <a href="#" target="_blank">
                   <Twitter fill="#80339b" />

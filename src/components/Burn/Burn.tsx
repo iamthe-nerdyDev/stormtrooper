@@ -1,4 +1,4 @@
-import burnImage from "../../assets/images/burn.png";
+import burnImage from "../../assets/images/fire.png";
 import "./Burn.css";
 
 const Burn = () => {

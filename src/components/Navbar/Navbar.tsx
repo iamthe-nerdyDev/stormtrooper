@@ -1,4 +1,4 @@
-import { Discord, Github, Menu, Telegram, Twitter } from "../../icons";
+import { Discord, GitBook, Menu, Twitter } from "../../icons";
 import { useState } from "react";
 import stormtrooperLogo from "../../assets/images/logo.svg";
 
@@ -28,8 +28,8 @@ const Navbar = () => {
                   <a href="#join">Be a Member</a>
                 </li>
                 <li>
-                  <a href="https://opensea.com" target="_blank">
-                    Opensea
+                  <a href="#" target="_blank">
+                    Whitepaper
                   </a>
                 </li>
               </ul>
@@ -38,13 +38,10 @@ const Navbar = () => {
               <div className="nav-socials">
                 <div className="d-flex align-items-center">
                   <a href="#" target="_blank">
-                    <Github fill="#80339b" />
+                    <GitBook fill="#80339b" />
                   </a>
                   <a href="#" target="_blank">
                     <Discord fill="#80339b" />
-                  </a>
-                  <a href="#" target="_blank">
-                    <Telegram fill="#80339b" />
                   </a>
                   <a href="#" target="_blank">
                     <Twitter fill="#80339b" />
@@ -71,21 +68,18 @@ const Navbar = () => {
                   <a href="#join">Be a Member</a>
                 </li>
                 <li>
-                  <a href="https://opensea.com" target="_blank">
-                    Opensea
+                  <a href="#" target="_blank">
+                    Whitepaper
                   </a>
                 </li>
               </ul>
               <div className="socials d-block d-md-none">
                 <div className="d-flex align-items-center">
                   <a href="#" target="_blank">
-                    <Github fill="#80339b" />
+                    <GitBook fill="#80339b" />
                   </a>
                   <a href="#" target="_blank">
                     <Discord fill="#80339b" />
-                  </a>
-                  <a href="#" target="_blank">
-                    <Telegram fill="#80339b" />
                   </a>
                   <a href="#" target="_blank">
                     <Twitter fill="#80339b" />

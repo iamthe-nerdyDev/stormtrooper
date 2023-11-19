@@ -1,5 +1,5 @@
 import stormtrooperLogo from "../../assets/images/logo.svg";
-import { Github, Discord, Telegram, Twitter } from "../../icons";
+import { GitBook, Discord, Telegram, Twitter } from "../../icons";
 import "./Footer.css";
 
 const Footer = () => {
@@ -18,13 +18,10 @@ const Footer = () => {
               <div className="socials-box py-4">
                 <div className="d-flex align-items-center justify-content-center">
                   <a href="#" target="_blank">
-                    <Github fill="#fff" />
+                    <GitBook fill="#fff" />
                   </a>
                   <a href="#" target="_blank">
                     <Discord fill="#fff" />
-                  </a>
-                  <a href="#" target="_blank">
-                    <Telegram fill="#fff" />
                   </a>
                   <a href="#" target="_blank">
                     <Twitter fill="#fff" />
