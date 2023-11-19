@@ -54,6 +54,8 @@
 }
 
 .socials-box {
+  width: max-content;
+  padding: 1.2rem 3rem !important;
   border: 1px solid var(--border-color);
 }
 
@@ -63,5 +65,5 @@
 }
 
 .socials-box > div {
-  gap: 1.8rem;
+  gap: 2.3rem;
 }

@@ -70,9 +70,9 @@ nav > div {
 }
 
 .nav-socials > div {
-  gap: 1.6rem;
+  gap: 2rem;
   border: 1px solid var(--border-color);
-  padding: 1rem 1.7rem;
+  padding: 1rem 2rem;
 }
 
 .nav-socials svg {
@@ -149,7 +149,7 @@ nav > div {
 }
 
 .nav-link-mobile .socials div {
-  gap: 0.9rem;
+  gap: 1.3rem;
 }
 
 .nav-link-mobile .socials div svg {

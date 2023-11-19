@@ -1,4 +1,4 @@
-import { Discord, GitBook, Menu, Twitter } from "../../icons";
+import { GitBook, Menu, Twitter } from "../../icons";
 import { useState } from "react";
 import stormtrooperLogo from "../../assets/images/logo.svg";
 
@@ -28,7 +28,7 @@ const Navbar = () => {
                   <a href="#join">Be a Member</a>
                 </li>
                 <li>
-                  <a href="#" target="_blank">
+                  <a href="/stormtroopers.pdf" target="_blank">
                     Whitepaper
                   </a>
                 </li>
@@ -39,9 +39,6 @@ const Navbar = () => {
                 <div className="d-flex align-items-center">
                   <a href="#" target="_blank">
                     <GitBook fill="#80339b" />
-                  </a>
-                  <a href="#" target="_blank">
-                    <Discord fill="#80339b" />
                   </a>
                   <a href="#" target="_blank">
                     <Twitter fill="#80339b" />
@@ -68,7 +65,7 @@ const Navbar = () => {
                   <a href="#join">Be a Member</a>
                 </li>
                 <li>
-                  <a href="#" target="_blank">
+                  <a href="/stormtroopers.pdf" target="_blank">
                     Whitepaper
                   </a>
                 </li>
@@ -79,9 +76,6 @@ const Navbar = () => {
                     <GitBook fill="#80339b" />
                   </a>
                   <a href="#" target="_blank">
-                    <Discord fill="#80339b" />
-                  </a>
-                  <a href="#" target="_blank">
                     <Twitter fill="#80339b" />
                   </a>
                 </div>
@@ -90,7 +84,7 @@ const Navbar = () => {
           )}
         </div>
       </nav>
-      <div className="py-3"></div>
+      <div className="py-4"></div>
     </>
   );
 };

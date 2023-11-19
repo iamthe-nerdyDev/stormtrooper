@@ -1,5 +1,5 @@
 import stormtrooperLogo from "../../assets/images/logo.svg";
-import { GitBook, Discord, Telegram, Twitter } from "../../icons";
+import { GitBook, Twitter } from "../../icons";
 import "./Footer.css";
 
 const Footer = () => {
@@ -19,9 +19,6 @@ const Footer = () => {
                 <div className="d-flex align-items-center justify-content-center">
                   <a href="#" target="_blank">
                     <GitBook fill="#fff" />
-                  </a>
-                  <a href="#" target="_blank">
-                    <Discord fill="#fff" />
                   </a>
                   <a href="#" target="_blank">
                     <Twitter fill="#fff" />
